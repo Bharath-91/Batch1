@@ -36,6 +36,8 @@ public class AdactinLoginObject extends BasePage {
 	@FindBy(xpath = "//*[@id=\"username_show\"]")
 	private WebElement welcome;
 	
+@FindBy(xpath = "//*[@id=\"username_show\"]")
+	private WebElement welcome;
 	public WebElement getwelcome() {
 		return welcome;
 		
